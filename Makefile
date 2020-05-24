@@ -208,6 +208,7 @@ ifeq ($(USE_OPENCV), 1)
 	# OpenPose: adding contrib module
 	else
 		LIBRARIES += opencv_contrib
+		#LIBRARIES += opencv_imgcodecs
 	# OpenPose: end modified
 	endif
 
